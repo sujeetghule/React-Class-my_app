@@ -4,7 +4,7 @@ function Main() {
     return (
         <>
             <div className="backgroud">
-
+        
             </div>
             <main>
                 <h3>
