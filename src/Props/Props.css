@@ -1,0 +1,9 @@
+img{
+    border: 1px solid black;
+    height: 300px;
+}
+*{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:thistle;
+}

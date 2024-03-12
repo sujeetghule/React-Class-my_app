@@ -1,13 +1,18 @@
 import React, { Fragment } from "react";
-import Parent from "./Props/Parent";
+// import Parent from "./Props/Parent";
 // import './Sections/Styling/App.css'
 // import Aside from "./Sections/Aside";
 // import Footer from "./Sections/Footer";
 // import Main from "./Sections/Main";
 // import Nav from "./Sections/Nav";
-import Props1 from "./Props/Props1";
-import Props2 from "./Props/Props2";
-import PropsDes1 from "./Props/PropsDes1";
+// import Props1 from "./Props/Props1";
+// import Props2 from "./Props/Props2";
+import './Props/Props.css'
+import Props3 from "./Props/Props3";
+import { Props5 } from "./Props/Props5";
+import { Props7 } from "./Props/Props7";
+import { Props9 } from "./Props/Props9";
+// import PropsDes1 from "./Props/PropsDes1";
 const App = ()=>{
     
     return (
@@ -18,20 +23,26 @@ const App = ()=>{
            <Nav></Nav>
             <section>
             <Aside></Aside>
-            
             <Main></Main>
             </section>
             <Footer></Footer>
            </div> 
-           ---------------------------------------------------------------------------
+           *************-*****************************************************************
            */}
            
+           {/* 
+           11 march 2023 Props
            <Props1></Props1>
            <Props2 name ="Sujeet"></Props2>
            <Parent></Parent>
-           <PropsDes1></PropsDes1>
+           <PropsDes1></PropsDes1> 
+           *****************************************************************************
+           */}
 
-            
+            <Props3></Props3>
+            <Props5/>
+            <Props7/>
+            <Props9/>
         </Fragment>
     )
 }
