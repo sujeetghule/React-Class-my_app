@@ -7,3 +7,9 @@ img{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:thistle;
 }
+button{
+    padding: 15px 50px;
+    font-style: italic;
+    border: 2px solid blueviolet;
+    box-shadow: 5px 5px 10px greenyellow;
+}
