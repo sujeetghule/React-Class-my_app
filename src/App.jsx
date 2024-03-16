@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { DefaultProps1 } from "./Props/DefaultProps1";
 // import Parent from "./Props/Parent";
 // import './Sections/Styling/App.css'
 // import Aside from "./Sections/Aside";
@@ -8,11 +7,8 @@ import { DefaultProps1 } from "./Props/DefaultProps1";
 // import Nav from "./Sections/Nav";
 // import Props1 from "./Props/Props1";
 // import Props2 from "./Props/Props2";
-import './Props/Props.css'
-import State1 from "./Props/State1";
-import State2 from "./Props/State2";
-import State3 from "./Props/State3";
-import State4 from "./Props/State4";
+
+import App1 from "./Task/App1";
 // import Props3 from "./Props/Props3";
 // import { Props5 } from "./Props/Props5";
 // import { Props7 } from "./Props/Props7";
@@ -52,12 +48,14 @@ const App = ()=>{
 
             */}
 
-            <DefaultProps1 name = "Vijay"></DefaultProps1>
+            {/* <DefaultProps1 name = "Vijay"></DefaultProps1>
             <DefaultProps1></DefaultProps1>
             <State1></State1>
             <State2/>
             <State3 user ="Sujeet"/>
-            <State4/>
+            <State4/> */}
+
+            <App1/>
 
         </Fragment>
     )
