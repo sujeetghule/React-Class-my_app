@@ -3,6 +3,7 @@ import NumberList from "./List Rendering/NumberList";
 import './App.css'
 import PersoneList from "./List Rendering/PersoneList";
 import ListItem from "./List Rendering/ListItem";
+import ParentComp from "./List Rendering/ParentComp";
 // import PlayersMain from "./PLayers/PlayersMain";
 // import Parent from "./Props/Parent";
 // import './Sections/Styling/App.css'
@@ -69,8 +70,9 @@ const App = ()=>{
             {/* <PlayersMain/> */}
 
             {/* <NumberList/> */}
-            <PersoneList/>
-            <ListItem/>
+            {/* <PersoneList/>
+            <ListItem/> */}
+            <ParentComp/>
             </Fragment>
     )
 }

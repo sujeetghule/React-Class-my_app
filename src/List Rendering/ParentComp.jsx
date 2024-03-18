@@ -1,7 +1,8 @@
 import React from 'react'
+import ChildComp from './ChildComp'
 
-function PersoneList() {
-    const plist = [
+function ParentComp() {
+    const persones = [
         {
             name: "Sujeet",
             age: 23,
@@ -25,12 +26,15 @@ function PersoneList() {
             EmpID: 4
         }
     ]
-    let all_list = plist.map((name) => {
-    })
-    return (
-         <h3>Hi... My name is {name.name}, I'm {name.age} Year old, I have Strong Skills in {name.skills}</h3>
-   
-    )
+  return (
+    <>
+        {
+            persones.map((persone) => {
+                return <ChildComp key={persone.id} persone1={persone}/>
+            })
+        }
+    </>
+  )
 }
 
-export default PersoneList
+export default ParentComp
