@@ -1,10 +1,18 @@
 import React, { Fragment } from "react";
+<<<<<<< HEAD
 import NumberList from "./List Rendering/NumberList";
 import './App.css'
 import PersoneList from "./List Rendering/PersoneList";
 import ListItem from "./List Rendering/ListItem";
 import ParentComp from "./List Rendering/ParentComp";
 // import PlayersMain from "./PLayers/PlayersMain";
+=======
+// import NumberList from "./List Rendering/NumberList";
+// // import './App.css'
+// import PersoneList from "./List Rendering/PersoneList";
+// import ListItem from "./List Rendering/ListItem";
+import PlayersMain from "./PLayers/PlayersMain";
+>>>>>>> bb7bbf84e37d62289faa8de212c5c24293db8cb4
 // import Parent from "./Props/Parent";
 // import './Sections/Styling/App.css'
 // import Aside from "./Sections/Aside";
@@ -67,12 +75,17 @@ const App = ()=>{
 
             {/* <Condi1/> */}
 
-            {/* <PlayersMain/> */}
+            <PlayersMain/>
 
             {/* <NumberList/> */}
+<<<<<<< HEAD
             {/* <PersoneList/>
             <ListItem/> */}
             <ParentComp/>
+=======
+            {/* <PersoneList/> */}
+            {/* <ListItem/> */}
+>>>>>>> bb7bbf84e37d62289faa8de212c5c24293db8cb4
             </Fragment>
     )
 }

@@ -1,8 +1,74 @@
 {
-    "virat":{
-        "name":"Virat Kohali",
-        "odi":"30",
-        "test":"40",
-        "t-20":"50"
-    }
-}
+    "players": [
+      {
+        "name": "Rohit Sharma",
+        "Odi": "36",
+        "t20": "42",
+        "test": "23",
+        "img": "https://bcciplayerimages.s3.amazonaws.com/resizedimageskirti/107_compress.png"
+      },
+      {
+        "name": "Virat Kohli",
+        "Odi": "43",
+        "t20": "28",
+        "test": "52",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/164_compress.png"
+      },
+      {
+        "name": "Jasprit Bumrah",
+        "Odi": "64",
+        "t20": "59",
+        "test": "27",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/1124_compress.png"
+      },
+      {
+        "name": "KL Rahul",
+        "Odi": "32",
+        "t20": "48",
+        "test": "19",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/1125_compress.png"
+      },
+      {
+        "name": "Ravindra Jadeja",
+        "Odi": "168",
+        "t20": "59",
+        "test": "51",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/9_compress.png"
+      },{
+        "name": "Shubman Gill",
+        "Odi": "7",
+        "t20": "8",
+        "test": "10",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/3761_compress.png"
+      },
+      {
+        "name": "Hardik Pandya",
+        "Odi": "60",
+        "t20": "48",
+        "test": "11",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/2740_compress.png"
+      },
+      {
+        "name": "Mohammed Siraj",
+        "Odi": "4",
+        "t20": "5",
+        "test": "5",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/3840_compress.png"
+      },
+      {
+        "name": "Rishabh Pant",
+        "Odi": "27",
+        "t20": "35",
+        "test": "21",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/2972_compress.png"
+      },
+      {
+        "name": "Suryakumar Yadav",
+        "Odi": "0",
+        "t20": "2",
+        "test": "0",
+        "img": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/1212_compress.png"
+      }
+    ]
+  }
+  
