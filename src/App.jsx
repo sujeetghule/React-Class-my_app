@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
-import NumberList from "./List Rendering/NumberList";
-import './App.css'
-import PersoneList from "./List Rendering/PersoneList";
-import ListItem from "./List Rendering/ListItem";
-// import PlayersMain from "./PLayers/PlayersMain";
+// import NumberList from "./List Rendering/NumberList";
+// // import './App.css'
+// import PersoneList from "./List Rendering/PersoneList";
+// import ListItem from "./List Rendering/ListItem";
+import PlayersMain from "./PLayers/PlayersMain";
 // import Parent from "./Props/Parent";
 // import './Sections/Styling/App.css'
 // import Aside from "./Sections/Aside";
@@ -66,11 +66,11 @@ const App = ()=>{
 
             {/* <Condi1/> */}
 
-            {/* <PlayersMain/> */}
+            <PlayersMain/>
 
             {/* <NumberList/> */}
-            <PersoneList/>
-            <ListItem/>
+            {/* <PersoneList/> */}
+            {/* <ListItem/> */}
             </Fragment>
     )
 }

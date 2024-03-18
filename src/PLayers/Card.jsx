@@ -1,23 +1,25 @@
-import React from 'react'
+import React from 'react';
 
 function Card(props) {
-  return (
-    <div>
-        <div class="profile">
-            <div class="photo">
-                <img src="/images/rohit.png" alt=""></img>
-            </div>
-            <div class="desc">
-                <h4 class="name">{props.name}</h4>
-                <ul class="carrier">
-                    <li>ODI : 30</li>
-                    <li>TEST : 50</li>
-                    <li>T-20 : 60</li>
-                </ul>
+    const { name, Odi, t20, test, img } = props.data;
+    
+    return (
+        <div>
+            <div className="profile">
+                <div className="photo">
+                    <img src={img} alt={name} />
+                </div>
+                <div className="desc">
+                    <h4 className="name">{name}</h4>
+                    <ul className="career">
+                        <li>ODI : {Odi}</li>
+                        <li>TEST : {test}</li>
+                        <li>T-20 : {t20}</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-  )
+    );
 }
 
-export default Card
+export default Card;
