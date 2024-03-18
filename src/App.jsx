@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import PlayersMain from "./PLayers/PlayersMain";
 // import Parent from "./Props/Parent";
 // import './Sections/Styling/App.css'
 // import Aside from "./Sections/Aside";
@@ -8,7 +9,6 @@ import React, { Fragment } from "react";
 // import Props1 from "./Props/Props1";
 // import Props2 from "./Props/Props2";
 
-import App1 from "./Task/App1";
 // import Props3 from "./Props/Props3";
 // import { Props5 } from "./Props/Props5";
 // import { Props7 } from "./Props/Props7";
@@ -55,8 +55,14 @@ const App = ()=>{
             <State3 user ="Sujeet"/>
             <State4/> */}
 
-            <App1/>
+            {/* <App1/> */}
 
+
+            {/* <ParantClass1/> */}
+
+            {/* <Condi1/> */}
+
+            <PlayersMain/>
         </Fragment>
     )
 }
