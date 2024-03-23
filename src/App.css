@@ -1,6 +1,7 @@
 *{
     background-color: rgba(78, 78, 78, 0.534);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+    /* text-align: center; */
+    margin: 10px;
     color: aliceblue;
 }

@@ -1,32 +1,6 @@
 import React, { Fragment } from "react";
-<<<<<<< HEAD
-import NumberList from "./List Rendering/NumberList";
-import './App.css'
-import PersoneList from "./List Rendering/PersoneList";
-import ListItem from "./List Rendering/ListItem";
-import ParentComp from "./List Rendering/ParentComp";
-// import PlayersMain from "./PLayers/PlayersMain";
-=======
-// import NumberList from "./List Rendering/NumberList";
-// // import './App.css'
-// import PersoneList from "./List Rendering/PersoneList";
-// import ListItem from "./List Rendering/ListItem";
-import PlayersMain from "./PLayers/PlayersMain";
->>>>>>> bb7bbf84e37d62289faa8de212c5c24293db8cb4
-// import Parent from "./Props/Parent";
-// import './Sections/Styling/App.css'
-// import Aside from "./Sections/Aside";
-// import Footer from "./Sections/Footer";
-// import Main from "./Sections/Main";
-// import Nav from "./Sections/Nav";
-// import Props1 from "./Props/Props1";
-// import Props2 from "./Props/Props2";
 
-// import Props3 from "./Props/Props3";
-// import { Props5 } from "./Props/Props5";
-// import { Props7 } from "./Props/Props7";
-// import { Props9 } from "./Props/Props9";
-// import PropsDes1 from "./Props/PropsDes1";
+import RegFrom from "./Project/RegFrom";
 const App = ()=>{
     
     return (
@@ -75,17 +49,18 @@ const App = ()=>{
 
             {/* <Condi1/> */}
 
-            <PlayersMain/>
+            {/* <PlayersMain/> */}
 
             {/* <NumberList/> */}
-<<<<<<< HEAD
             {/* <PersoneList/>
             <ListItem/> */}
-            <ParentComp/>
-=======
+            {/* <ParentComp/> */}
             {/* <PersoneList/> */}
             {/* <ListItem/> */}
->>>>>>> bb7bbf84e37d62289faa8de212c5c24293db8cb4
+            {/* <Form1/>
+            <Form2/> */}
+
+            <RegFrom></RegFrom>
             </Fragment>
     )
 }
