@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
+import UpdateComponent from "./HOF/HigherOrderComp";
 
-import RegFrom from "./Project/RegFrom";
 const App = ()=>{
     
     return (
@@ -60,7 +60,10 @@ const App = ()=>{
             {/* <Form1/>
             <Form2/> */}
 
-            <RegFrom></RegFrom>
+            {/* <RegFrom></RegFrom> */}
+            {/* <Hof1></Hof1> */}
+
+            <UpdateComponent/>
             </Fragment>
     )
 }
