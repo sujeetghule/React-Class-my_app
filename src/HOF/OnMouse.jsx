@@ -9,6 +9,6 @@ export class OnMouse extends Component {
         <button onMouseOver={incrementCount1}>{name} {count1}</button>
       </div>
     )
-  }
+  }  
 }
 export default UpdateComponent(OnMouse)

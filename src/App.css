@@ -4,4 +4,15 @@
     /* text-align: center; */
     margin: 10px;
     color: aliceblue;
+    padding: 10px;
+}
+input{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+}
+button{
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
 }
