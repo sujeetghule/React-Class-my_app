@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import './App.css';
-import Ref3 from "./Refs/Ref3";
+import Parent from "./Pure Component/Parent";
 const App = ()=>{
     
     return (
@@ -63,13 +63,16 @@ const App = ()=>{
             {/* <RegFrom></RegFrom> */}
             {/* <Hof1></Hof1> */}
             {/* <UpdateComponent/> */}
-            {/* <Refs/> */}
-
-
             {/* <Ref2></Ref2>
              */}
+             {/* <Ref3></Ref3> */}
+             {/* <h1>Heloooo</h1> */}
+             {/* <Ref6/> */}
 
-             <Ref3></Ref3>
+
+             {/* <ParentRef/> */}
+
+             <Parent/>
             </Fragment>
     )
 }
