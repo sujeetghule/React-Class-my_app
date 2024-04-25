@@ -19,7 +19,7 @@ export class Parent extends Component {
             })
         },3000)
     }
-
+ 
 
     
 

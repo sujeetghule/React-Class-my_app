@@ -1,11 +1,54 @@
 import React, { Fragment } from "react";
-import './App.css';
-import Parent from "./Pure Component/Parent";
-const App = ()=>{
-    
-    return (
-        <Fragment>
-           {/* 
+import Products from "./Project 3/Component/Products";
+// import './App.css';
+// import StudentInfo from "./Student/StudentInfo";
+
+
+
+const App = () => {
+
+        return (
+                <Fragment>
+                        <Products></Products>
+                        {/* <UserCon1></UserCon1> */}
+                        {/* <StudentInfo></StudentInfo> */}
+                        {/* <Login></Login> */}
+                        {/* <div className="bg-danger">
+
+                        </div> */}
+
+                        {/* <UseEffectData3></UseEffectData3> */}
+                        {/* <UseEffectData2></UseEffectData2> */}
+                        {/* <Profile></Profile> */}
+
+                        {/* <UseEffectData1></UseEffectData1> */}
+
+                        {/* <Counter></Counter> */}
+
+
+
+                        {/* 
+
+                <UseEffect6></UseEffect6>
+                <UseEffect7></UseEffect7> */}
+
+                        {/* <UseEffect></UseEffect>
+                        <UseEffect2></UseEffect2>
+                        <UseEffect3></UseEffect3>
+                        <UseEffect4></UseEffect4>
+                        <UseEffect5></UseEffect5> */}
+
+                        {/* <UseState1></UseState1>
+                        <UseState2></UseState2>
+                        <UseState3></UseState3>
+                        <UseState4></UseState4>
+                        <UseState5></UseState5> */}
+                        {/* <ParentHero/> */}
+                        {/* <CompUnmountParent/> */}
+                        {/* <CompLifeE/> */}
+
+                        {/* <CompLifeF/> */}
+                        {/* 
            Section app
            <div>
            <Nav></Nav>
@@ -17,8 +60,8 @@ const App = ()=>{
            </div> 
            ******************************************************************************
            */}
-           
-           {/* 
+
+                        {/* 
            11 march 2023 Props
            <Props1></Props1>
            <Props2 name ="Sujeet"></Props2>
@@ -27,7 +70,7 @@ const App = ()=>{
            *****************************************************************************
            */}
 
-            {/* <Props3></Props3>
+                        {/* <Props3></Props3>
             <Props5/>
             <Props7/>
             <Props9/> 
@@ -35,45 +78,47 @@ const App = ()=>{
 
             */}
 
-            {/* <DefaultProps1 name = "Vijay"></DefaultProps1>
+                        {/* <DefaultProps1 name = "Vijay"></DefaultProps1>
             <DefaultProps1></DefaultProps1>
             <State1></State1>
             <State2/>
             <State3 user ="Sujeet"/>
             <State4/> */}
 
-            {/* <App1/> */}
+                        {/* <App1/> */}
 
 
-            {/* <ParantClass1/> */}
+                        {/* <ParantClass1/> */}
 
-            {/* <Condi1/> */}
+                        {/* <Condi1/> */}
 
-            {/* <PlayersMain/> */}
+                        {/* <PlayersMain/> */}
 
-            {/* <NumberList/> */}
-            {/* <PersoneList/>
+                        {/* <NumberList/> */}
+                        {/* <PersoneList/>
             <ListItem/> */}
-            {/* <ParentComp/> */}
-            {/* <PersoneList/> */}
-            {/* <ListItem/> */}
-            {/* <Form1/>
+                        {/* <ParentComp/> */}
+                        {/* <PersoneList/> */}
+                        {/* <ListItem/> */}
+                        {/* <Form1/>
             <Form2/> */}
 
-            {/* <RegFrom></RegFrom> */}
-            {/* <Hof1></Hof1> */}
-            {/* <UpdateComponent/> */}
-            {/* <Ref2></Ref2>
+                        {/* <RegFrom></RegFrom> */}
+                        {/* <Hof1></Hof1> */}
+                        {/* <UpdateComponent/> */}
+                        {/* <Ref2></Ref2>
              */}
-             {/* <Ref3></Ref3> */}
-             {/* <h1>Heloooo</h1> */}
-             {/* <Ref6/> */}
+                        {/* <Ref3></Ref3> */}
+                        {/* <h1>Heloooo</h1> */}
+                        {/* <Ref6/> */}
 
 
-             {/* <ParentRef/> */}
+                        {/* <ParentRef/> */}
 
-             <Parent/>
-            </Fragment>
-    )
+                        {/* <Parent/> */}
+                        {/* <CompLifeA/> */}
+                        {/* <CompLifeC/> */}
+                </Fragment>
+        )
 }
 export default App;
