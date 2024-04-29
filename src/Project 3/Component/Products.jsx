@@ -59,7 +59,7 @@ const Products = () => {
     let [item, setItem] = useState(Menu)
     const Filters =(filVAle)=>{
         item.filter((new_value)=>{
-            
+            return setItem
         })
     }
     return (
@@ -67,7 +67,7 @@ const Products = () => {
             <div className="h1 text-center">Order Your Food</div>
             <hr />
             <div className="container d-flex justify-content-around">
-                <button type='button' className='btn btn-warning'>Break-fast</button>
+                <button type='button' className='btn btn-warning' onClick={Filters('Breakfast')}>Break-fast</button>
                 <button type='button' className='btn btn-warning'>Lunch</button>
                 <button type='button' className='btn btn-warning'>Time-Pass</button>
                 <button type='button' className='btn btn-warning'>Dinner</button>
@@ -88,7 +88,7 @@ const Products = () => {
                                             <li className="list-group-item list-group-item-action font-weight-bold">Name:{product_name}</li>
                                             <li className="list-group-item list-group-item-action">Description:{product_description}</li>
                                             <li className="list-group-item list-group-item-action">Price:{product_price}</li>
-                                            <li className="list-group-item list-group-item-action">Product id:{product_id}</li>
+                                            <li className="list-group-item list-group-item-action">Product id:{product_id}{product_category}</li>
                                         </ul>
                                         <button className="btn btn-primary mb-4">Order Now</button>
                                     </div>

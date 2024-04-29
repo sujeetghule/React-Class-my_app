@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import Products from "./Project 3/Component/Products";
-// import './App.css';
-// import StudentInfo from "./Student/StudentInfo";
+import USereduser5 from "./Hooks/Component/USereduser5";
+import USeReduser6 from "./Hooks/Component/USeReduser6";
+
 
 
 
@@ -9,7 +9,14 @@ const App = () => {
 
         return (
                 <Fragment>
-                        <Products></Products>
+
+                        <h1>Hello MF</h1>
+                        {/* <USeReduser6></USeReduser6> */}
+                        {/* <USereduser5></USereduser5> */}
+                        {/* <UseReduser4></UseReduser4> */}
+                        {/* <UseReduser3/> */}
+                        {/* <UseReduser2/> */}
+                        {/* <Products></Products> */}
                         {/* <UserCon1></UserCon1> */}
                         {/* <StudentInfo></StudentInfo> */}
                         {/* <Login></Login> */}
